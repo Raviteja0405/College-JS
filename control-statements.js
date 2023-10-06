@@ -35,14 +35,14 @@ let m = 20;
 let choice = 1;
 
 switch (choice) {
-    case 1:
-        let sum =l+m;
-      console.log("sum : ", sum);
-      break;
-    case 2:
-        let diff = l-m;
-      console.log("difference: ", diff);
-      break;
-    default:
-      console.log("Invalid Choice");
-  }
+  case 1:
+    let sum = l + m;
+    console.log("sum : ", sum);
+    break;
+  case 2:
+    let diff = l - m;
+    console.log("difference: ", diff);
+    break;
+  default:
+    console.log("Invalid Choice");
+}
