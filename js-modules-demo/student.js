@@ -1,4 +1,4 @@
-let student = {
+ export let student = {
     student: 100, 
     name: 'suresh',
     marks:[90, 57, 69],
