@@ -13,3 +13,7 @@
 
 // //default export
 // export default {a, names};
+
+import {student} from './student.js'
+
+console.log("students in file1 are: ", student);
