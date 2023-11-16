@@ -1,5 +1,8 @@
 // You promise to your frnd to call him in next 5min
 
+console.log("you promise to your frnd that you call him in next 5 min...");
+console.log("Your frnd is awaiting for your call.....");
+
 let futureCondition = true;// condition through which future is being decided
 
 //Create promise
@@ -15,4 +18,10 @@ let futureCondition = true;// condition through which future is being decided
         },5000);
     })
 
-//Consume promise
+//Consume promise(Your Frnd)
+    phoneCallPromise // then when catch fulfilled
+    .then((successMessage)=>{console.log(successMessage)})
+    .catch((errorMessage)=>{console.log(errorMessage);})
+
+
+// console.log("The last action");
