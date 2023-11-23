@@ -13,7 +13,7 @@
     
     <div class="container">
         <h1 class="display-2 text-center text-info">Form demo</h1>
-        <form action="">
+        <form >
             <div class="mb-3">
                 <label for="username" class="form-label">Username</label>
                 <input type="text" name="username" id="username" class="form-control">
@@ -28,7 +28,23 @@
             </div>
             <button class="btn btn-success" type="submit">Register</button>
         </form>
+
+        <!-- table of users -->
+        <h1 class="display-3 text-warning text-center">Registered Users</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Date of birth</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
     </div>
+    
+
 
     <script src="./test.js"></script>
 </body>
