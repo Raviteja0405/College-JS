@@ -26,14 +26,17 @@ function getUsers(){
         }
         // wanted to make a button when clicked removed the card. 
         // Still in progress
-        for(let user of users){
-            let button = main.querySelectorAll("button");
-            console.log(button[i]);
+        // success fully done🔥
+        for(let child of main.children){
+            let button = child.querySelector("button");
+            // console.log(button);
             button.addEventListener("click",()=>{
-                button[i].parentElement.parentElement.parentElement.remove();
+                child.remove();
                 // console.log(e);
             })
-            i++;
+            // i++;
+            // child.remove();
+            
         }
     })
     .catch(err => console.log(err))
